@@ -5,7 +5,16 @@
 		}
 	],
 	"settings": {
-		"git.ignoreLimitWarning": true
+		"git.ignoreLimitWarning": true,
+		"sqltools.connections": [
+			{
+				"database": "${workspaceFolder:dartblog}/siteblog/db.sqlite3",
+				"driver": "SQLite",
+				"name": "dartblog",
+				"previewLimit": 50
+			}
+		],
+		"sqltools.useNodeRuntime": true
 	},
 	"launch": {
 		"version": "0.2.0",
