@@ -8,4 +8,6 @@ urlpatterns = [
     path('post/<str:slug>/', GetPost.as_view(), name='post'),
     path('tag/<str:slug>/',  PostsByTag.as_view(), name='tag'),
     path('search/',  Search.as_view(), name='search'),
+    path('json/',  some_json, name='json'),
+    #path('test/',  test, name='test'),
 ]
